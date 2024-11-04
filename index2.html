@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/special.css">
+    <title>Menu</title>
+</head>
+<body>
+   
+
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="./images/bri.webp" alt="Delicious Food 1" class="active" height="400px" width="400px">
+            <img src="./images/briyani.jpg" alt="Delicious Food 2" height="400px" width="400px">
+            <img src="./images/briyani.png" alt="Delicious Food 3" height="400px" width="400px">
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="links">
+        <h2>More about my restaurant</h2>
+        <ul>
+            <li><a href="./MEDIA/audio.mp3" target="_blank">AUDIO FILE</a></li>
+            <li><a href="./MEDIA/menu.pdf" target="_blank">MENU </a></li>
+        </ul>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.carousel-images img');
+        const totalImages = images.length;
+
+        function changeSlide(direction) {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + direction + totalImages) % totalImages;
+            images[currentIndex].classList.add('active');
+        }
+    </script>
+</body>
+</html>

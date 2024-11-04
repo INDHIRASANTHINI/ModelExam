@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+  background-color: #CADCFC;
+}
+a:focus, a:hover {
+    font-style: italic;
+}
+
+
+header {
+    padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid #00246B;
+   
+    background-image: -webkit-linear-gradient(
+        30deg, #00246B 0%, #CADCFC 30%, white 50%, #CADCFC 80%, #00246B 100%);
+}
+header h2 {
+    font-size: 175%;
+    color: #00246B;
+    font-family: "Oleo Script", serif;
+}
+header h3 {
+    font-size: 130%;
+    font-family: "Pacifico", serif;
+}
+header img {
+    float: left;
+    padding: 0 30px;
+    
+}
+.navbar {
+    background-color: #00246B;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #00246B;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px #00246B;
+}
+
+main {
+    clear: left;
+}
+
+section {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 20px;
+}
+section h1 {
+    font-size: 150%;
+    padding: .5em 0 .25em 0;
+    font-family: "Oleo Script", serif;
+    margin: 0;              
+}
+section h2 {
+    color: #00246B;
+    font-size: 130%;
+    font-family: "Oleo Script", serif;
+    padding: .5em 0 .25em 0;
+}
+section p {
+    padding-bottom: .5em;
+}
+
+section blockquote {
+    padding: 0 2em;
+    font-size: x-large;
+    font-family: "Pacifico", serif;
+    color: #00246B;
+}
+section ul {
+    padding: 0 0 .25em 1.25em;
+}
+section li {
+    padding-bottom: .35em;
+}
+
+
+article {
+    padding: .5em 0;
+    border-top: 2px solid #00246B;
+    border-bottom: 2px solid #00246B;
+}
+article h2 {
+    padding-top: 0;
+}
+artical p{
+    width: 80px;
+    padding: 50px;
+}
+article h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+article img {
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin: .5em 0 1em 1em;
+    border: 1px solid #00246B;
+}
+
+
+aside {
+    width: 30%;
+    float: left;
+    padding: 0 0 20px 20px;
+    margin-top: 100px;
+}
+aside h2 {
+    color: #00246B;
+    font-size: 130%;
+    padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+aside img {
+    padding-bottom: 1em;
+    width: 100px;
+}
+
+
+footer {
+    background-color: #00246B;
+    clear: both;
+
+}
+footer p {
+    text-align: center;
+    color: #CADCFC;
+    padding: 1em 0;
+}
+
+#menu{
+    width: 100%;
+}
